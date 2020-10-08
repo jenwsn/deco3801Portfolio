@@ -35,9 +35,30 @@ section {
     top: 40%;
     margin-left:10%;
 }
+#user-feedback{
+    height: 40vh;
+    background-color: lightskyblue;
+}
+#user-carousel{
+    position: inherit;
+    padding-top: 8%;
+
+}
+#tech-table{
+    margin-left: 15%;
+    position: inherit;
+    padding-top: 10%;
+}
+#team-cards{
+    width: 80vw;
+    position: inherit ;
+    margin: auto auto auto auto;
+}
 
 
-.card-columns {
-    column-count: 4;
-    
-  }
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+    outline: black;
+}
