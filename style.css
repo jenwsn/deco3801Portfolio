@@ -1,0 +1,43 @@
+Body {
+
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+h1 {
+    font-family: 'IBM Plex Sans', bold;
+    font-size: 10vh;
+}
+h2 {
+    font-family: 'IBM Plex Sans', bold;
+    font-size: 5vh;
+}
+h4 {
+    font-family: 'IBM Plex Serif', italic;
+    font-size: 2vh;
+}
+section {
+    display: block;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+#welcome-text {
+    float: left;
+    width: 50vw;
+    position: absolute;
+    top: 40%;
+    margin-left:10%;
+}
+
+#design-text {
+    float: left;
+    width: 50vw;
+    position: inherit ;
+    top: 40%;
+    margin-left:10%;
+}
+
+
+.card-columns {
+    column-count: 4;
+    
+  }
