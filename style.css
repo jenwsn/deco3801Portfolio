@@ -2,6 +2,9 @@ Body {
 
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
+p {
+    font-size: 2vh;
+}
 h1 {
     font-family: 'IBM Plex Sans', bold;
     font-size: 10vh;
@@ -17,15 +20,53 @@ h4 {
 section {
     display: block;
     height: 100vh;
-    background-color: antiquewhite;
 }
-
+#welcome img {
+    height: 100%;
+    position:inherit;
+    width: 100%;
+    opacity: 70%;
+}
 #welcome-text {
     float: left;
     width: 50vw;
     position: absolute;
-    top: 40%;
-    margin-left:10%;
+    top: 45%;
+    margin-left:5%;
+}
+#project img {
+    position: inherit; 
+    float: right; 
+    height: 100vh;
+    margin-top: -65vh;
+    margin-right: 10vw;
+
+}
+#project {
+    background-color: #d2e7d6;
+}
+#project-text {
+    float: left;
+    width: 30vw;
+    position: inherit;
+    margin-top: 15%;
+    margin-left:5%;
+
+}
+#howto img{
+    height: 60vh;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: auto;
+}
+#proto{
+    width:50vw;
+    float: left; 
+    position: inherit ;
+}
+#proto-text {
+    width:30vw; 
+    float: right;
 }
 
 #design-text {
@@ -37,7 +78,7 @@ section {
 }
 #user-feedback{
     height: 40vh;
-    background-color: lightskyblue;
+    background-color: #d2e7d6;
 }
 #user-carousel{
     position: inherit;
@@ -47,14 +88,20 @@ section {
 #tech-table{
     margin-left: 15%;
     position: inherit;
-    padding-top: 10%;
+    padding-top: 3%;
+}
+#technical img {
+    height: 13vh;
+    padding-bottom: 3vh;
+}
+#team{
+    background-color: #d2e7d6;
 }
 #team-cards{
     width: 80vw;
     position: inherit ;
     margin: auto auto auto auto;
 }
-
 
 .carousel-item.active,
 .carousel-item-next,
